@@ -1,2 +1,10 @@
+
 # PomodoroTrace4QA
-Her yazılan otomasyon testinde (Java-Selenium tabanlı), her @Test veya @Scenario bloğu için otomatik bir Pomodoro logu tutulacak. Bu veriler haftalık olarak Agile Dashboard'a aktarılacak.
+
+Java + Selenium testleri yazarken her test senaryosu için otomatik Pomodoro loglayan sistem.
+
+## Kullanım
+Her @Test metoduna PomodoroLogger.log(...) satırını ekleyin.
+
+## Log Formatı
+log-output.json dosyasına JSON formatında log kayıtları atılır.
